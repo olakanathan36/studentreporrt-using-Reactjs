@@ -33,3 +33,71 @@
     flex-wrap: wrap;
 
 }
+body{
+    padding: 0;
+    margin: 0;
+  }
+  .student{
+    display: flex;
+  }
+  .sidebar{
+    background-color: lightblue;
+    display: flex;
+    flex-direction: column;
+    width: 13vw;
+    height: 100vh;
+  }
+  .sidebar img{
+    height: 140px;
+    width: 150px;
+    margin: 0 auto;
+  }
+  .sidebar ul{
+    list-style: none;
+    padding: 0;
+  }
+  .sidebar ul li{
+    margin: 2px 0;
+    text-align: center;
+  }
+  .sidebar i{
+    font-size: 30px;
+  }
+  .sidebar .menu i{
+    margin-top: 10px;
+    margin-bottom: 7px;
+    font-size: 20px;
+    padding: 0 12px ;
+  }
+  .sidebar .menu{
+    display: flex;
+    justify-content: center;
+  }
+  .mainContent h3{
+    background-color: wheat;
+    padding: 10px 931px 10px 10px;
+    margin: 0;
+  }
+  .cards{
+    display: flex;
+    justify-content: space-evenly;
+    margin-top: 2%;
+  }
+  span{
+    display: flex;
+    justify-content: space-between;
+  }
+  .cards p{
+    font-size: 1.1rem;
+  
+    margin: 5px;
+  }
+  .card1, .card2, .card3{
+    width: 200px;
+    border: 1px solid;
+    border-radius: 5px;
+    padding: 10px;
+  }
+  .cards i{
+    font-size: 30px;
+  }
