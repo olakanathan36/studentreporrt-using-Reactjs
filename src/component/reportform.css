@@ -1,0 +1,35 @@
+.bar1{
+    background-color: rgb(234, 51, 51);
+    margin-left: 20px;
+    margin-bottom: 20px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    box-shadow: 0 0px 8px rgb(184, 165, 136);
+}
+.bar2{
+    background-color: rgb(184, 34, 154);
+    margin-left: 20px;
+    margin-bottom: 20px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    box-shadow: 0 0px 8px rgb(184, 165, 136);
+}
+.bar3{
+    background-color: rgb(51, 234, 106);
+    margin-left: 20px;
+    margin-bottom: 20px;
+    width: 400px;
+    display: flex;
+    align-items: center;
+    justify-content: space-evenly;
+    box-shadow: 0 0px 8px rgb(51, 234, 106);
+}
+.reportbar{
+    display: flex;
+    flex-wrap: wrap;
+
+}
